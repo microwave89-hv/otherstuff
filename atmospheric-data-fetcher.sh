@@ -1,5 +1,6 @@
 #!/bin/bash
-# Atmospheric Data Fetcher to Be Used With a Cron Job
+# Atmospheric Data Fetcher
+# Intended to be used in conjunction with a cron job set to 20:00 UTC.
 # (c) 2020 microwave89-hv
 GFSENS00=`date "+%Y%m%d_%H%M_00"`
 GFSENS12=`date "+%Y%m%d_%H%M_12"`
